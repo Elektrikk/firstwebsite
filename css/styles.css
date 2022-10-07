@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    text-align: center;
+    color: #40514E;
+
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size:5.625rem;
+    /*font-size: 562.5%;*/
+    /* 90px is not dynamic, 100% = 16px, for 90px 90/16px = 5.62, 562.5% */
+    /* you can also use "em", which is also a dynamic scaling unit 100% = 1 em.
+    1)  a disadvantage with both of these is if we use 200% in body and 562.5% in h1(which also belongs in the body --
+    -- it will get displayed as 200+562.5%. To avoid this, we use "rem" which ignores the scaling set in the body*/
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Sacramento', cursive;
+    color: #FF9494;
+    line-height: 2;
+}
+h2{
+    font-size: 2.0rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF9494;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #FF74B1;
+}
+.happy{
+    text-decoration: underline;
+}
+/*.div1{
+        height: 200px;
+        background-color: blue;
+        width: 30%;
+        border-style: solid;
+        margin-left: 30%;
+        border-width: 10px;
+        padding: 50px;
+}*/
+.top-container{
+    background-color: #FFF5E4;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+.middle-container{
+    
+}
+.bottom-container{
+    background-color: #FFD1D1;
+    padding: 50px 0 10px;
+    
+}
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px;
+   /*  scale: 140%; */ 
+}
+/*.mountain{
+    scale: 160%;
+    position: relative;
+    top:95px;
+    left:20px;
+}*/
+
+.profile-pic{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.harold{
+    width: 25%;
+    height: 120px;
+    float: left;
+    padding: 0 30px;
+}
+
+.garfield{
+    width:25%;
+    height: 25%;
+    padding: 0 30px;
+    float: right;
+}
+.chunmun{
+    text-align: right;
+}
+
+a{
+    color: #FA7070;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px 20px;
+    text-decoration: none;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 60px auto 100px auto; /* MARGIN: AUTO CAN BE USED TO CENTRE THINGS*/
+    text-align: left;
+    line-height: 2;
+}
+
+hr{
+    border-style: dotted;
+    width: 5%;
+    border-width: 7px 0 0 0;
+    color: #FF9494;
+    margin: 70px auto;
+}
+
+.contact-me{
+    margin-bottom: 100px;
+}
+
+.contact-message{
+    margin: 40px auto 60px;
+}
+
+.footer-link{
+}
+
+.footer-link:hover{
+    color: whitesmoke;
+}
+
+.trademark{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0 0 0;
+    
+}
+
+.btn {
+    background: #FF9494;
+    background-image: -webkit-linear-gradient(top, #FF9494, #FF9494);
+    background-image: -moz-linear-gradient(top, #FF9494, #FF9494);
+    background-image: -ms-linear-gradient(top, #FF9494, #FF9494);
+    background-image: -o-linear-gradient(top, #FF9494, #FF9494);
+    background-image: linear-gradient(to bottom, #FF9494, #FF9494);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FF74B1;
+    background-image: -webkit-linear-gradient(top, #FF74B1, #FF74B1);
+    background-image: -moz-linear-gradient(top, #FF74B1, #FF74B1);
+    background-image: -ms-linear-gradient(top, #FF74B1, #FF74B1);
+    background-image: -o-linear-gradient(top, #FF74B1, #FF74B1);
+    background-image: linear-gradient(to bottom, #FF74B1, #FF74B1);
+    text-decoration: none;
+  }
